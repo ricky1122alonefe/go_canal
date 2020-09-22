@@ -11,6 +11,7 @@ type CananConfig struct {
 	SchemaInfo map[string][]string
 	// 延迟写入
 	Delay int
-	// 写入 方向
+	// 写入 方向 暂定redis
 }
+
 

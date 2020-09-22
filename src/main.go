@@ -7,6 +7,9 @@ func main() {
 	if err !=nil{
 		log.Println(err.Error())
 	}
+
+
+
 	c.SetEventHandler(&binlogHandler{})
 	pos,err1:=c.GetMasterPos()
 	if err1!=nil{
