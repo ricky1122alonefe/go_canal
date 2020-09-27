@@ -45,7 +45,7 @@ func (h *binlogHandler) OnRow(e *canal.RowsEvent) error {
 		// 	case canal.InsertAction:
 		//
 		// 		fmt.Println("delete")
-		// 	case canal.DeleteAction:
+		// 	case canal.DeleteAction:  11111
 		// 		oldUser := module.TBAResource{}
 		// 		h.GetBinLogData(&oldUser, e, i-1)
 		// 		fmt.Printf("delete",oldUser.Id)
